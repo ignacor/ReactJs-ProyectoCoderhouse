@@ -16,8 +16,6 @@ const NavBar1 = () => {
     ]
     const headerStyle = {
         backgroundColor : '#ffffff',
-        height : '150px',
-        paddingTop :'75px',
     display: 'flex',
    alignContent :'center',
    justifyContent: 'center',
