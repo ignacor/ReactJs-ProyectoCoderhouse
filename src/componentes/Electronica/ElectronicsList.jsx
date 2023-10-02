@@ -1,14 +1,14 @@
 import React from 'react'
 import { Col } from 'react-bootstrap';
 
-import ComicCard from './ComicCard';
-const ComicList = ({ items }) => {
+import ElectronicaCard from './ElectronicsCard';
+const ElectronicaList = ({ items }) => {
     return (
         <>
             {
                 items.map((item) => (
                     <Col md={4} lg={4} sm={12} key={item.id} >
-                        <ComicCard item={item} />
+                        <ElectronicaCard item={item} />
                     </Col>
                 ))
             }
@@ -16,4 +16,4 @@ const ComicList = ({ items }) => {
     )
 }
 
-export default ComicList
+export default ElectronicaList
